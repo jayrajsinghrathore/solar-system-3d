@@ -106,7 +106,7 @@ function AnimatedBackground() {
   }, [])
 
   // Create galaxy spiral
-  const galaxyPositions = useMemo(() => {
+  const galaxyPositions = useMemo(() => {  
     const positions = new Float32Array(8000 * 3)
     for (let i = 0; i < 8000; i++) {
       const radius = Math.random() * 300 + 100
