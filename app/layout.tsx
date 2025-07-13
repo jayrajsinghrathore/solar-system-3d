@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: '3D SOLAR SYSTEM',
   description: 'THREE.JS',
   generator: 'Next.js',
-}
+} 
 
 export default function RootLayout({
   children,
